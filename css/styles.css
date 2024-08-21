@@ -156,7 +156,8 @@ font-size: 20px;
     align-items: center;
     justify-content: content;
     width: 350px;
-    background-color:#eee
+    background-color:#eeeeee;
+    border-radius: 50px;
 }
 
 .pricetag {

@@ -88,6 +88,8 @@ font-size: 20px;
     gap: 48px;
     justify-content: space-between;
     padding: 50px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .informacoes li {
@@ -96,15 +98,14 @@ font-size: 20px;
     gap: 16px;
 }
 
-h3 {
+.informacoes h3 {
     font-size: 32px;
     color: #333;
 }
 
-h4 {
+.informacoes h4 {
     font-size: 18px;
     color: #70747a;
-
 }
 
 
@@ -125,21 +126,27 @@ h4 {
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 32px;
 }
 
 #selecione {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .listaplanos {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 32px;
+    gap: 48px;
     padding: 30px;
     justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .listaplanos li {
@@ -148,6 +155,8 @@ h4 {
     gap: 50px;
     align-items: center;
     justify-content: content;
+    width: 350px;
+    background-color:#eee
 }
 
 .pricetag {
@@ -156,6 +165,7 @@ h4 {
     display: flex;
     flex-direction: column;
     color: #fff;
+    font-weight:bold;
     background-color: #2cc76a;
     border-radius: 50%;
     text-transform: uppercase;
@@ -169,10 +179,167 @@ h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    padding: 24px;
+    gap:8px;
     background-color: #232a31;
-
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
+
+.listaplanos li strong {
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.selecionar-btn {
+    background-color: #2cc76a;
+    width: 100%;
+    padding : 24px;
+    gap:8px;
+    color: #fff;
+    font-size: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.buscardominio {
+    padding: 24px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #232a31;
+    height: 356px;
+}
+
+.buscardominio h3 {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    padding: 24px;
+    gap:8px;
+}
+
+.buscardominio h4 {
+    color: #70747a;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+}
+
+.buscardominio form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 24px 8px;
+    width: 50%;               
+    padding: 10px;            
+    margin: 8px 0;           
+}
+
+.buscardominio form input {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;   
+    height: 52px;          
+    padding: 8px;            
+    margin: 8px 0;             
+    border: none;            
+    border-radius: 4px;        
+}
+
+.buscardominio form button {
+    display: flex;
+    flex-direction: column;
+    background-color: #2cc76a;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+.footer {
+    background-color: #2a2a2a;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.footer h3 {
+    color: #fff;
+    font-size: 32px;
+    padding: 8px 16px;
+}
+
+.footer h4 {
+    color: #b1b1b1;
+    font-size: 18px;
+    padding: 8px 8px;
+    gap:8px;
+}
+
+.nome-e-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 8px 24px;
+    height: 140px;
+}
+
+.nome-e-email input {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: -48px;
+    width: 90%;   
+    height: 52px;          
+    padding: 8px;                         
+    border: none;            
+    border-radius: 4px;        
+}
+
+.inputmessage input {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: -60px;
+    width: 400px;  
+    height: 150px;          
+    padding: 8px;                         
+    border: none;            
+    border-radius: 4px;  
+}
+.footer button {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2cc76a;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+
 
 
 

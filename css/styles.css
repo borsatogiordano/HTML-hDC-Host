@@ -1,0 +1,182 @@
+.header {
+    width: 100%;
+    background-color: #232a31;
+
+    padding: 10px 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 8px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.navbar-items {
+    list-style: none;
+
+    display: flex;
+
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar-items li a {
+    color: #eee;
+    text-transform: uppercase;
+}
+
+
+#login-btn {
+    background-color:#2cc76a;
+    color:#fff;
+
+    border-radius: 16px;
+
+    padding: 10px 16px;
+}
+
+.banner{
+    height: 450px;
+    background-image: url("../img/mainbanner.png");
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 50px 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 12px;
+}
+
+.banner h1{
+    font-size: 54px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner strong{
+color: #fff;
+text-align: center;
+font-size: 20px;
+}
+
+.first-cards{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.first-cards i {
+    font-size: 50px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.informacoes li {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h3 {
+    font-size: 32px;
+    color: #333;
+}
+
+h4 {
+    font-size: 18px;
+    color: #70747a;
+
+}
+
+
+.fa-shield-alt {
+    color:#2cc76a
+}
+
+.fa-rocket {
+    color:rgb(225, 36, 36)
+}
+
+.fa-comments {
+    color: rgb(9, 188, 0);
+}
+
+#planos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#selecione {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listaplanos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.listaplanos li {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: content;
+}
+
+.pricetag {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #2cc76a;
+    border-radius: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.listaplanos li header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #232a31;
+
+}
+
+
+
+
+
+
+
